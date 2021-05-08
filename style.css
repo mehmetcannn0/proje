@@ -5,6 +5,8 @@
 
 
 }
+
+/* deneme */
 body{
     margin-top: 90px;
     color: #24426d;
@@ -15,8 +17,6 @@ body{
     top: 0px;
     width: 100%;
     margin-top: -9px;
-    
-    background-color: pink;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -27,7 +27,7 @@ body{
 }
  .m{
     background-color: #85CCE6;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: 10px;
     border-radius: 4px;
 
@@ -40,6 +40,7 @@ body{
     
 }
 .logo{
+    top: -18px;
     position: fixed;
     left: 5px;
     
@@ -66,7 +67,7 @@ body{
     float: left;
     /* display: inline-flex; */
     background-color:#5db5d3; 
-    border-radius: 5px;
+    border-radius: 2px;
     
     
 }
