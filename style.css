@@ -8,8 +8,8 @@
 
 /* deneme */
 body{
-    margin-top: 90px;
-    color: #24426d;
+    margin-top: 130px;
+    color: #DF6332;
 }
 .menuler{
 
@@ -19,40 +19,62 @@ body{
     margin-top: -9px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     flex-wrap: wrap;
+    height: 155px;
 
     
  
 }
+
+
+.marka{
+   
+    top: 12px;
+    position:fixed;
+    width: 100%;
+    z-index: 1;
+    text-align:center;
+    
+
+    
+}
+
  .m{
-    background-color: #85CCE6;
+    background-color: white;
     /* border: 1px solid black; */
     margin: 10px;
     border-radius: 4px;
 
 }
-.dil{
+.dil{    
+    
     position: fixed;
     right: -53px;
-    top: 5px;
-    
+    top: -11px;
+    width: 90px;
+    z-index: 100000;
     
 }
 .logo{
-    top: -18px;
+    margin-left: 12px;
+    top: 2px;
     position: fixed;
     left: 5px;
     
+    
+    
+}
+.logo>img{
+    height: 135px;
 }
 .m a{
     text-decoration: none;
 
 }
-.logo,.dil {
-    width: 90px;
-}
+
 .sekme{
+    
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -60,14 +82,22 @@ body{
     flex-grow: 1;
     text-align: center;
     list-style: none; 
+    align-content: flex-end;
         
 }
+.sekme>ul{
+    
+    height: 45px;
+}
 .dd>li{    
-   
+    z-index: 1;
+    margin-top: 25px;   
     float: left;
     /* display: inline-flex; */
-    background-color:#5db5d3; 
+    background-color: white;
     border-radius: 2px;
+    
+    
     
     
 }
@@ -76,14 +106,16 @@ body{
     display: block;
     font-size: 24px;
     padding: 0px 15px;
-    color:#f6ffff;
+    color: #DF6332;
     line-height: 50px;
     /* border: 1px solid red; */
+    
+    
 
 }
 .dd ul {
     position: absolute ;
-    top: 50px;
+    top: 90px;
     opacity: 0;
     transition: 500ms all;
     visibility: hidden;
@@ -100,7 +132,7 @@ body{
     /* display: block; */
     opacity: 1;
     visibility: visible;
-    top: 75px;
+    top: 135px;
     
     
    
@@ -117,8 +149,8 @@ body{
 .dd ul :hover li>a{
     /* display: block; */
   
-    color: #99F8D5;
-    background-color: #437f93; 
+    color: #DF6332;
+    background-color: white;
    
 }
 
@@ -126,8 +158,8 @@ body{
     display: block;
     font-size: 21px;
     padding: 1px 12px;
-    background-color: #4593ad;
-    color: #99F8D5; 
+    background-color: white;
+    color: #DF6332; 
 
 }
 .dd>li>ul>li ul{
@@ -181,7 +213,7 @@ body{
 }
 
 body{
-    background-color: #e6ffff;
+    background-color: white;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -216,7 +248,7 @@ body{
     border:  solid 2px rgb(197, 193, 193);
     border-radius: 5px;
     font-weight: bolder;
-    color: #519BDB;
+    color: #DF6332;
 
 }
 
@@ -226,7 +258,7 @@ body{
 
 
 a{
-    color: black;
+    color: #DF6332;
 }
 
 /* renler
