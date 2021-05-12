@@ -2,11 +2,10 @@
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     box-sizing: border-box;
     list-style: none;
+    font-size: 19px;
 
 
 }
-
-/* deneme */
 body{
     margin-top: 130px;
     color: #DF6332;
@@ -50,7 +49,7 @@ body{
 .dil{    
     
     position: fixed;
-    right: -53px;
+    right: -43px;
     top: -11px;
     width: 90px;
     z-index: 100000;
@@ -170,8 +169,33 @@ body{
   left: 100px;
     
 }
+.sutun1{
+    padding: 5%;
+    width: 85%;    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: -39px;
+    
+    
+}
 
+.sutun1>ul>li{
+    display: flex;
+    flex-direction: column;
+    font-size: 35px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
 
+}
+.sutun1 p{
+    margin-bottom: 49px;
+}
+/* 
+.sutun1>ul>li>a,.sutun1>ul>li>p{
+    width: 40px;
+} */
 
 .sutunlar{
 
@@ -191,7 +215,6 @@ body{
     display: flex;
     flex-direction: column;
     
-
 }
 .sutun>ul>li>a,.sutun>ul>li>p{
     width: 400px;
@@ -206,7 +229,8 @@ body{
 
 
 .sehirresim,.mekanresim,.sporresim{
-    height: 180px;
+    width: 100%;
+    
     padding-bottom: 8px;
 
 
@@ -214,19 +238,22 @@ body{
 
 body{
     background-color: white;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100% 100%;
-
+    
 
 }
+#sehırsutun,#sporsutun{
+    padding-left: 4%;
+    padding-right: 4%;
+}
+#sporlar{
+    padding:0% 5%;
+    width: 85%;  }
 
 #sehirler,#mekanlar,#sporlar,.sutunlar{
-    margin-top: 95px;
+    /* margin-top: 95px; */
 
-    padding-left: 9%;
-    padding-right: 9%;
+    padding-left: 2%;
+    padding-right: 2%;
 }
 #sehirler ul{
 
@@ -244,7 +271,7 @@ body{
 }
 
 #sehirsecenek{
-    margin-left: -9%;
+    
     border:  solid 2px rgb(197, 193, 193);
     border-radius: 5px;
     font-weight: bolder;
