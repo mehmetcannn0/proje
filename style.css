@@ -192,10 +192,7 @@ body{
 .sutun1 p{
     margin-bottom: 49px;
 }
-/* 
-.sutun1>ul>li>a,.sutun1>ul>li>p{
-    width: 40px;
-} */
+
 
 .sutunlar{
 
@@ -204,9 +201,12 @@ body{
     justify-content: space-between;
     flex-wrap: wrap;
     margin-top: 9px;
+    margin: 105px;
     
 }
-
+.sutun{
+    width: 33%;
+}
 
 .sutun li{
     margin-bottom: 3%;
@@ -216,15 +216,16 @@ body{
     flex-direction: column;
     
 }
-.sutun>ul>li>a,.sutun>ul>li>p{
-    width: 400px;
-}
 
-.aa{
+ /* .sutun>ul>li>a,.sutun>ul>li>p{
+    width: 350px;
+}  */
+
+/* .aa{
 
     width: 400px;
     
-}
+} */
 
 
 
@@ -241,41 +242,31 @@ body{
     
 
 }
-#sehırsutun,#sporsutun{
+/* #sehırsutun,#sporsutun{
     padding-left: 4%;
     padding-right: 4%;
-}
-#sporlar{
+} */
+/* #sporlar{
     padding:0% 5%;
-    width: 85%;  }
+    width: 85%;  } */
 
-#sehirler,#mekanlar,#sporlar,.sutunlar{
-    /* margin-top: 95px; */
-
+    /* ,.sutunlar */
+header+h2{
     padding-left: 2%;
-    padding-right: 2%;
-}
-#sehirler ul{
-
-
-    list-style-type: none;
+    position: fixed;
+    
 }
 
-#sehirler li{
-
-
-    float: left;
-    padding-right: 2%;
-    padding-left: 2%;
-    margin: auto;
-}
 
 #sehirsecenek{
-    
+    position: fixed;
     border:  solid 2px rgb(197, 193, 193);
     border-radius: 5px;
     font-weight: bolder;
     color: #DF6332;
+    left: 12px;
+    top: 170px;
+    width: 135px;
 
 }
 
