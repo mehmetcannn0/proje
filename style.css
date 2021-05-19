@@ -235,8 +235,14 @@ body{
     padding-bottom: 8px;
 
 
+    
 }
+.sr{
+    height: 255px;
 
+
+
+}
 body{
     background-color: white;
     
